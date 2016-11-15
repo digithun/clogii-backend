@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+APP_NAME=clogii APP_ID=UjMJZo7zGIRTXuKG8wbhlqQlCQkrHqAK8CGvn4Gr MASTER_KEY=hPsNqYdNZ5pT0wTwFMOGgVBSQhgMo4Yzt3dCjBJe DEV_BUNDLE_ID=com.digithun.Clogii PRODUCTION_BUNDLE_ID=com.digithun.Clogii CLIENT_KEY=cxEaiotJwKz4ceeoNNBzODmJNlS0KUrjQqYFic1b JAVASCRIPT_KEY=v2JMFwwOGNvsCRjHUWXcxgTv4RxnyArjz9G3DK8D PUBLIC_SERVER_URL=http://localhost:1337/parse SERVER_URL=http://localhost:1337/parse PARSE_DASHBOARD_ALLOW_INSECURE_HTTP=1 USER1=foo USER1_PASSWORD=bar GRAPHQL_SUPPORT=true docker-compose up -d
+docker logs clogii_parse-server_1

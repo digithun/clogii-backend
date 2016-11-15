@@ -1,0 +1,6 @@
+# docker exec -i clogii_git_1 ssh-add-key < ~/.ssh/id_rsa.pub
+docker cp index.js clogii_parse-server_1:/parse/index.js
+# docker cp node_modules/graphql clogii_parse-server_1:/parse/node_modules/graphql
+# docker cp node_modules/express-graphql clogii_parse-server_1:/parse/node_modules/express-graphql
+docker restart clogii_parse-server_1
+docker logs clogii_parse-server_1
